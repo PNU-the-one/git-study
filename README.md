@@ -2,5 +2,6 @@
 
 git  baranch만들기
 
-git branch <name> /n
+git branch <name>
+  
 git checkout <name>
