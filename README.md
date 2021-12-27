@@ -1,6 +1,6 @@
 # git-study
 
-# git  baranch만들기
+git  baranch만들기
 
-# git branch <name>
-# git checkout <name>
+git branch <name>
+git checkout <name>
