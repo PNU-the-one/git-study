@@ -34,4 +34,19 @@
 
 - 레포지토리 clone 하기
     1. git clone '주소'
-    2. 촤라락
+    2. 자료 추가
+    3. git commit
+
+## git push pull clone
+- push : 로컬 저장소의 내용을 원격 저장소로 업로드
+- pull : 변경된 원격 저장소의 내용을 로컬 저장소로 적용
+- clone : 누군가 작업해놓은 이력을 통째로 복제해와서 PC에 적용
+
+## 방금 겪은 일
+- commit을 잘못해서 취소 하고 싶었다
+- git reset사용!
+- git log --oneline 을 활용하여 현재 상태보기
+- 돌아가길 원하는 곳으로 head를 이동시켜야함
+- git reset <돌아가길 원하는 ID>
+- 다시 git log --oneline으로 확인해보면 위에꺼 다사라짐
+![commit_reset](./img/reset.PNG)
