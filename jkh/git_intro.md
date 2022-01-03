@@ -54,15 +54,15 @@ $ git remote add(or remove) <저장소명> <주소>
 - git log --oneline 을 활용하여 현재 상태보기
 - 돌아가길 원하는 곳으로 head를 이동시켜야함
 - git reset <돌아가길 원하는 ID>
-- 다시 git log --oneline으로 확인해보면 위에꺼 다사라짐
+- 다시 git log --oneline으로 확인해보면 위에꺼 다사라짐 <br>
 ![commit_reset](./img/reset.PNG)
 
 ## git을 통한 프로젝트 과정
-- 저장소 만들기 -> 작업 -> commit -> push
-※ 만약 다른 저장소를 이용할 경우?
-- 저장소 불러오기(clone) -> 작업 -> commit -> push
-※ 변경된 프로젝트 불러오기
-- pull -> 작업 -> commit -> push
+- 저장소 만들기 -> 작업 -> commit -> push <br>
+※ 만약 다른 저장소를 이용할 경우? <br>
+- 저장소 불러오기(clone) -> 작업 -> commit -> push <br>
+※ 변경된 프로젝트 불러오기 <br>
+- pull -> 작업 -> commit -> push <br>
 - push를 하는 경우 기존의 프로젝트 내용과 병합(merge)가  이뤄진다.
 
 ## 충돌이 발생한 경우!
