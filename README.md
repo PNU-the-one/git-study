@@ -1,6 +1,6 @@
 # git-study
 
-git  baranch만들기
+git branch 만들기
 
 git branch <name>
   
